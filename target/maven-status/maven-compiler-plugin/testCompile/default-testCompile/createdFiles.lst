@@ -1,0 +1,12 @@
+startup/navigator/Pages/SignUpPage.class
+startup/navigator/Tests/CreateEditTMBaseTest.class
+startup/navigator/Pages/RegistrationCreateOrgPage.class
+startup/navigator/Pages/NavigatorPage.class
+startup/navigator/Tests/UploadAllFileTest.class
+startup/navigator/Tests/CreateEditProjectTest.class
+startup/navigator/Tests/CreateResourseTest.class
+startup/translate/Page/TranslatePage.class
+startup/driverSettings/DriverSettings.class
+startup/navigator/Tests/FullSmokeTest.class
+startup/translate/Tests/TranslateFullSmokeTest.class
+startup/navigator/Tests/CreateEditMTKeyTest.class

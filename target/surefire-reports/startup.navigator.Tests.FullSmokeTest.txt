@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: startup.navigator.Tests.FullSmokeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 60.579 s <<< FAILURE! - in startup.navigator.Tests.FullSmokeTest
+fullSmokeTest  Time elapsed: 60.372 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="root"]/main/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[1] (tried for 10 second(s) with 500 milliseconds interval)
+	at startup.navigator.Tests.FullSmokeTest.fullSmokeTest(FullSmokeTest.java:116)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/main/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jcus-MacBook-Pro.local', ip: 'fe80:0:0:0:1890:421c:291b:3891%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/qs/by9w247j2j5...}, goog:chromeOptions: {debuggerAddress: localhost:51224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9752133b033555f8d29ba402aa8d5269
+*** Element info: {Using=xpath, value=//*[@id="root"]/main/div/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]}
+	at startup.navigator.Tests.FullSmokeTest.fullSmokeTest(FullSmokeTest.java:116)
+
