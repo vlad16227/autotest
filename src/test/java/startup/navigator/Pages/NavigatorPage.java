@@ -119,7 +119,7 @@ public class NavigatorPage
 
          Thread.sleep(3000);
          By fileInput = By.xpath("//*[@id=\"fileinput\"]");
-         String filePath = "/Users/vlad/Desktop/autotest/src/main/resources/upload/test_en_en-ru.ru.txt";
+         String filePath = "/Users/vlad/untitled123/src/main/resources/upload/test_en_en-ru.ru.txt";
          driver.findElement(fileInput).sendKeys(filePath);
      }
      @Step("Отображение загруженного файла")
