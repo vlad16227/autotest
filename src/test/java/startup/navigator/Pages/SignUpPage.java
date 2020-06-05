@@ -16,7 +16,7 @@ public class SignUpPage {
     @Step("Переход на сайт навигатора")
     public void open(){
 
-        driver.get("https://marfa-web.apps.marfa-dev.space/nav/sign-in?next=/");
+        driver.get("https://stable-web.apps.marfa-dev.space/");
     }
     @Step("Обнаружение заголовка")
     public void findTittle(){
