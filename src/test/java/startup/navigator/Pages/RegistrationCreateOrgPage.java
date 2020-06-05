@@ -23,7 +23,7 @@ public class RegistrationCreateOrgPage {
     @Step("Переход на страницу входа")
 
     public void open(){
-        driver.get("https://stable-web.apps.marfa-dev.space");
+        driver.get("https://stable-web.apps.marfa-dev.space/");
     }
 
     @Step("Обнаружение заголовка111")
